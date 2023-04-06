@@ -1,0 +1,27 @@
+.tag_container{
+    margin-top: 10px;
+    background-color: beige;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 17px 0px rgba(87,83,87,1);
+    -moz-box-shadow: 5px 5px 17px 0px rgba(87,83,87,1);
+    box-shadow: 5px 5px 17px 0px rgba(87,83,87,1);
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tag > p {
+    padding: 10px
+}
+.icon {
+    padding: 5px;
+    margin-right: 13px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.icon:hover {
+    color: white;
+    background-color: black;
+}

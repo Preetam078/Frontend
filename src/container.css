@@ -1,0 +1,8 @@
+.content {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    max-width: 500px;
+    height: 90vh;
+    max-height: 90vh;
+}
